@@ -1,0 +1,36 @@
+.navbar-container {
+    height: 10% ;
+    width: 100%;
+    background-color: transparent;
+}
+
+.home {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../public/portfolio_imgs/black-panther-wallpaper-2.jpg");
+}
+
+
+.header-font {
+    color: rgb(245, 234, 77);
+    font-size: medium;
+}
+
+.header-font:hover {
+    color: aliceblue;
+    cursor: pointer;
+    font-size: large;
+}
+
+.header-nav {
+    display: flex;
+    list-style: none;
+    align-content: center;
+    justify-content: center;
+}
+
+.nav-item {
+    margin : 5px;
+    padding: 5px;
+    margin-right: 20px;
+}
